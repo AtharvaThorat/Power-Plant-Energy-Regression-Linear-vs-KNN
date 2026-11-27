@@ -128,8 +128,8 @@ That holdout number picks k on the test set, so it's optimistic. The cross-valid
 ## Quickstart
 
 ```bash
-git clone https://github.com/AtharvaThorat/power-plant-energy-regression-linear-vs-knn.git
-cd power-plant-energy-regression-linear-vs-knn
+git clone https://github.com/AtharvaThorat/Power-Plant-Energy-Regression-Linear-vs-KNN.git
+cd Power-Plant-Energy-Regression-Linear-vs-KNN
 pip install -r requirements.txt
 
 python scripts/run_all.py          # every model → results/results.json  (about 1 minute)
@@ -159,7 +159,7 @@ The full analysis, with every table and diagnostic plot, is in [`notebooks/power
 ## Repository structure
 
 ```
-power-plant-energy-regression-linear-vs-knn/
+Power-Plant-Energy-Regression-Linear-vs-KNN/
 ├── ccpp/
 │   ├── data.py          # loading and the 70/30 split
 │   └── models.py        # OLS helpers, backward elimination, KNN sweep, 5 × 2 CV
